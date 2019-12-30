@@ -1,0 +1,9 @@
+.idea
+/venv
+venv/
+*.log
+*.idea
+*.nik
+*venv*
+__pycache__
+*.pytest_cache
