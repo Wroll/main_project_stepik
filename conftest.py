@@ -3,7 +3,7 @@ from selenium import webdriver
 import time
 from selenium.webdriver.chrome.options import Options
 
-PATH_TO_DRIVER_CHROME = ""
+PATH_TO_DRIVER_CHROME = "D:\\drosel\\Driver\\chromedriver.exe"
 
 
 # 'en,en_US'
