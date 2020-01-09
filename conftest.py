@@ -19,6 +19,7 @@ def browser(request):
     options = Options()
     options.add_experimental_option('prefs', {'intl.accept_languages': language_name})
     browser = webdriver.Chrome(PATH_TO_DRIVER_CHROME, options=options)
+    # browser.delete_all_cookies()
 
     yield browser
     print("\nquit browser..")

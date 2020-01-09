@@ -8,6 +8,10 @@ class MainPageLocators:
 class LoginPageLocators:
     LOGIN_FORM = (By.ID, "login_form")
     REGISTER_FORM = (By.ID, "register_form")
+    EMAIL_INPUT_FOR_REGISTER_FORM = (By.XPATH, "/html/body/div[2]/div/div[2]/div[2]/div/div[2]/form/div[1]/div/input")
+    PASSWORD_INPUT_FOR_REGISTER_FORM = (By.NAME, "registration-password1")
+    CONFIRM_PASSWORD = (By.NAME, "registration-password2")
+    REGISTRATION_SUBMIT = (By.NAME, "registration_submit")
 
 
 class ProductPageLocators:
@@ -18,3 +22,17 @@ class ProductPageLocators:
     PRODUCT_PRICE_SHOULD_BE = (By.XPATH, "//*[@id='content_inner']/article/div[1]/div[2]/p[1]")
     PRODUCT_PRICE_ADDED_INTO_BASKET = (By.XPATH, "/html/body/div[2]/div/div[1]/div[3]/div/p[1]/strong")
     SUCCESS_MESSAGE = (By.XPATH, "/html/body/div[2]/div/div[1]/div[1]")
+
+
+class BasePageLocators:
+    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+    LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
+    VIEW_BASKET_BUTTON = (By.XPATH, "/html/body/header/div[1]/div/div[2]/span/a")
+    USER_ICON = (By.CSS_SELECTOR, "div.alertinner.wicon")
+
+
+class ViewBasketLocators:
+    TEXT_ABOUT_EMPTY_BASKET = (By.XPATH, "/html/body/div[2]/div/div[3]/div[2]/p")
+    EMPTY_BASKET = (By.XPATH, "/html/body/div[2]/div/div[3]/div[2]/div[1]")
+
+
