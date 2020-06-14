@@ -1,4 +1,4 @@
-First it all write a path to your own driver in variable PATH_TO_DRIVER_CHROME in confest.py
+First of all write a path to your own driver in variable PATH_TO_DRIVER_CHROME in confest.py
 
 
 Install all packages according requirements.txt before run tests
