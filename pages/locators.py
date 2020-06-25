@@ -34,5 +34,3 @@ class BasePageLocators:
 class ViewBasketLocators:
     TEXT_ABOUT_EMPTY_BASKET = (By.CSS_SELECTOR, "div[id='content_inner'] p")
     EMPTY_BASKET = (By.XPATH, "div.basket-title.hidden-xs")
-
-
